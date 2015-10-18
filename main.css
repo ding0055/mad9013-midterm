@@ -34,17 +34,17 @@ html{
   display:block;
   font-size: 1.5rem;
   background-color: #CCFFFF;
-  color:#FF9999;
+  color:#FFB037;
   text-align:center;
 }
 .mainnav a:hover,
 .mainnav a:active{
-  background-color: #FF9999;
+  background-color: #FFB037;
   color:#CCFFFF;
 }
 .masthead h1{
   font-size: 4em;
-  line-height:2;
+  line-height: 2em;
   background:  url("http://lorempixel.com/1600/400/cats/") no-repeat 50% 50%;
   min-height: 400px;
   color: #99CCFF;
@@ -72,10 +72,12 @@ p{
 h2{
     padding: 0 1rem;
     font-family: 'Chewy', cursive;
+    color: #FFB037;
 }
 h3{
     padding: 0 1rem;
     font-family: 'Chewy', cursive;
+    color: #FFB037;
 }
 .clean:after{
   clear:both;
