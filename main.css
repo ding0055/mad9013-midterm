@@ -44,7 +44,7 @@ html{
 }
 .masthead h1{
   font-size: 4em;
-  line-height: 5;
+  line-height:2;
   background:  url("http://lorempixel.com/1600/400/cats/") no-repeat 50% 50%;
   min-height: 400px;
   color: #99CCFF;
