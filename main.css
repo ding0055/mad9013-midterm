@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+  font-size: 16px;
+  line-height:1.75;
+  font-family: font-family: 'Roboto', sans-serif;
+  background-color: #CCCCCC;
+}
+.wrapper{
+ 
+  width:95%;
+  margin:0 auto;
+  background-color: #FFFFCC;
+  color: #555;
+  
+}
+.mainnav{
+    margin-top: 20px;
+    
+}
+.mainnav ul{
+  list-style:none;
+  margin-bottom: 20px;
+}
+.mainnav li{
+  font-family: 'Lobster', cursive;
+}
+.mainnav a,
+.mainnav a:visited{
+  text-decoration:none;
+  display:block;
+  font-size: 1.5rem;
+  background-color: #CCFFFF;
+  color:#FF9999;
+  text-align:center;
+}
+.mainnav a:hover,
+.mainnav a:active{
+  background-color: #FF9999;
+  color:#CCFFFF;
+}
+.masthead h1{
+  font-size: 4em;
+  line-height: 5;
+  background:  url("http://lorempixel.com/1600/400/cats/") no-repeat 50% 50%;
+  min-height: 400px;
+  color: #99CCFF;
+  padding: 0 2rem;
+  font-family: 'Sigmar One', cursive;
+}
+img{
+  max-width: 100%;
+}
+p{
+  text-align: justify;
+  padding: 0 1rem;
+}
+
+.left{
+    float:left;
+   margin-top: 0.25rem;
+    margin-right: 1.5rem; 
+}
+.right{
+    float:right;
+   margin-top: 0.25rem;
+    margin-left: 1.5rem;  
+}
+h2{
+    padding: 0 1rem;
+    font-family: 'Chewy', cursive;
+}
+h3{
+    padding: 0 1rem;
+    font-family: 'Chewy', cursive;
+}
+.clean:after{
+  clear:both;
+  display:block;
+  content: '.';
+  visibility:hidden;
+  height:0;
+  line-height:0;
+}
+.footer p{
+   background-color:#CCFFFF;
+    color:#FF9999;
+}
+@media all and (max-width:35em){
+
+ 
+}
+@media all and (min-width:35em) and (max-width:60em){
+  .mainnav li{
+    float: left;
+    width: 25%;
+  }
+  .content {
+    width:63%;
+    float: left;
+  }
+   .side{
+       float: left;
+       width:37%;
+   }
+  
+    
+}
+@media all and (min-width:60em){
+.wrapper{
+    width:90%;
+    max-width: 1600px;
+    } 
+    
+.mainnav{
+       float: left;
+       width: 25%;  
+   }
+ .content {
+    float: left;
+    width:50%;
+  }
+    .primary {
+    float: left;
+    width:50%;
+  }
+    .secondary {
+    float: right;
+    width:50%;
+  }
+    .side{
+       float:right;
+       width:25%;
+   }
+    .img{
+    background:  url("http://lorempixel.com/400/400/cats/") no-repeat 50% 50%;
+        min-height: 400px;
+        margin-left: 1rem;
+    }
+    .mainnav ul{
+  padding-left:1rem;
+}
+    /*.content p{
+    -webkit-column-count: 2; 
+    -moz-column-count: 2;
+    column-count: 2;
+    }*/
+}
